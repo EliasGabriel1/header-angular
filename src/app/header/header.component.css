@@ -1,0 +1,45 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.group-log-in-out{
+  display: flex;
+  gap: 30px;
+}
+
+.group-log-in-out button:first-child a:hover{
+  color: var(--main-color);
+}
+
+.header{
+  margin-top: 120px !important;
+}
+
+.group-log-in-out button:last-child a{
+  padding: 13px 45px;
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+  border-radius: 50px;
+}
